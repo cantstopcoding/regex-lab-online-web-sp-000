@@ -6,7 +6,7 @@ end
 def words_starting_with_un_and_ending_with_ing(text)
    # use grep to return array
    # word starts with un && ends with ing
-   text.grep(//)
+   text.grep(/\A/)
 end
 
 def words_five_letters_long(text)
